@@ -1,0 +1,13 @@
+#+MACRO: course "Стратегии коммерциализации инноваций"
+
+#+TITLE: Шаблоны тем курсовых работ по дисциплине {{{course}}}
+#+AUTHOR: Константин Моренко
+#+EMAIL: vim@konstantin-morenko.ru
+#+DATE: {{{time(%Y-%m-%d %H:%M)}}}
+#+LANGUAGE: ru
+
+#+OPTIONS: ':t email:t todo:nil *:t toc:nil
+
+#+INCLUDE: "theme-selection.org" :minlevel 1
+#+INCLUDE: "themes.org" :minlevel 1
+#+INCLUDE: "biblio.org" :minlevel 1
