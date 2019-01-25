@@ -37,7 +37,7 @@
 #+INCLUDE: intro.org
 
 * Основные требования к курсовой работе
-requirements
+#+INCLUDE: requirements.org
 
 ** Критерии оценки курсовой работы
  rating
