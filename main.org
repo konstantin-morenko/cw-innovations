@@ -33,6 +33,7 @@
 * Введение
   :PROPERTIES:
   :UNNUMBERED: t
+  :CUSTOM_ID: intro
   :END:
 
 #+INCLUDE: intro.org
