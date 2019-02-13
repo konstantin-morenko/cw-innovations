@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru" xml:lang="ru">
+<head>
+<!-- 2019-02-13 Ср 09:25 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Выполнение курсовой работы по дисциплине "Стратегии коммерциализации инноваций"</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Константин Моренко" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Выполнение курсовой работы по дисциплине "Стратегии коммерциализации инноваций"</h1>
+<div id="table-of-contents">
+<h2>&#1057;&#1086;&#1076;&#1077;&#1088;&#1078;&#1072;&#1085;&#1080;&#1077;</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org2514143">Введение</a></li>
+<li><a href="#orgf567967">1. Основные требования к курсовой работе</a>
+<ul>
+<li><a href="#org6db362b">1.1. Критерии оценки курсовой работы</a></li>
+</ul>
+</li>
+<li><a href="#orgd6e84e4">2. <span class="todo TODO">TODO</span> Этапы выполнения курсовой работы</a>
+<ul>
+<li><a href="#org8979e6f">2.1. <span class="todo TODO">TODO</span> Календарные сроки выполнения работы</a></li>
+<li><a href="#org064453d">2.2. Выбор темы курсовой работы</a></li>
+<li><a href="#org4d94fa6">2.3. Составление плана курсовой работы</a></li>
+<li><a href="#org12741bb">2.4. Подбор и обработка фактических и статистических материалов</a></li>
+<li><a href="#orge5af1b3">2.5. Написание текста курсовой работы</a></li>
+<li><a href="#orgd70f6a8">2.6. <span class="todo TODO">TODO</span> Защита</a></li>
+</ul>
+</li>
+<li><a href="#orge3afab5">3. <span class="todo TODO">TODO</span> Правила оформления курсовой работы</a></li>
+<li><a href="#org1900468">4. <span class="todo TODO">TODO</span> Литература</a></li>
+<li><a href="#orgd03d1a4">5. <span class="todo TODO">TODO</span> Перечень тем</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org2514143" class="outline-2">
+<h2 id="org2514143">Введение</h2>
+<div class="outline-text-2" id="text-org2514143">
+<p>
+Курсовая работа по дисциплине "Стратегии коммерциализации инноваций" является творческой
+работой, в которой каждый студент должен показать навыки и умение
+вести анализ экономических понятий, делать самостоятельные выводы,
+имеющие практическое значение.
+</p>
+
+<p>
+Чтобы выполнить курсовую работу (выполнить &#x2014; написать, защитить и
+получить оценку), студенту рекомендуется следовать этапам выполнения
+курсовой работы, которые изложены в этой работе.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgf567967" class="outline-2">
+<h2 id="orgf567967"><span class="section-number-2">1</span> Основные требования к курсовой работе</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Курсовая работа представляет собой разработку актуальной теоретической
+или практической экономической проблемы.  В ней должны быть отражены
+позиции российских и зарубежных экономистов, периодическая научная
+литература, статистическая информация, материалы, взятые из сети
+Internet.
+</p>
+
+<p>
+Перед выполнением работы студент составляет план.  План служит опорой
+и перечнем тем, которые студенту нужно раскрыть в ходе выполнения
+курсовой работы.  Студент самостоятельно или консультируясь с
+руководителем подбирает основную и дополнительную литературу,
+определить те важнейшие публикации, которые будут положены в основу
+курсовой работы и наиболее полно раскрывают тему.
+</p>
+
+<p>
+Тема курсовой работы раскрывается на основе изучения современной
+научной и учебной экономической литературы, журнальных и газетных
+публикаций, статистических материалов.  Хотя отдельные главы и
+параграфы курсовой работы могут совпадать с названием некоторых
+параграфов соответствующих научных изданий или разделов учебников,
+работа не должна быть пересказом материала, изложенного в литературе.
+</p>
+
+<p>
+Не допускается дословное заимствование (списывание) текста.  Дословное
+копирование литературы противоречит смыслу курсовой работы, не
+способствует получению практических знаний и умений, приучает студента
+к бездумному повторению известных истин.  Поэтому текст курсовой
+работы должен быть написан самостоятельно в соответствии с планом.  В
+работе должны содержаться элементы творчества, теоретические положения
+должны быть связаны с практикой хозяйствования и реформирования
+экономики.
+</p>
+
+<p>
+В ходе написания работы студент изучает правила оформления научного
+аппарата, грамотного применения сносок, ссылок на источники информации
+и правил оформления списка литературы или библиографического списка.
+</p>
+
+<p>
+Если в литературе по теме работы имеются различные точки зрения или
+представлены различные методы решения той или иной проблемы, студент
+должен обосновать свою позицию, которая, не обязательно должна
+совпадать с чьим-то мнением.  При этом желательно, чтобы студент
+продемонстрировал практическое подтверждение своей точки зрения.
+Курсовая работа показывает способность студента самостоятельно
+мыслить, творчески относиться к литературным источникам, формулировать
+выводы и предложения, основанные на анализе фактического материала.
+</p>
+</div>
+
+<div id="outline-container-org6db362b" class="outline-3">
+<h3 id="org6db362b"><span class="section-number-3">1.1</span> Критерии оценки курсовой работы</h3>
+<div class="outline-text-3" id="text-1-1">
+<dl class="org-dl">
+<dt>отлично</dt><dd>на основе глубоких знаний теории в работе дается
+самостоятельный анализ фактического материала, содержатся
+элементы научного творчества, делаются самостоятельные
+выводы и конкретные предложения.</dd>
+
+<dt>хорошо</dt><dd><p>
+работа выполнена на высоком теоретическом уровне,
+достаточно полно освещаются вопросы темы, но отсутствует в
+должной степени самостоятельный подход к теме.
+</p>
+
+<p>
+В таких работах, как правило, выводы и предложения автор
+формулирует, исходя из теории и фактических примеров,
+взятых из литературных источников, нет анализа реальных
+случаев, нет относительно новых статистических данных по
+странам мира или по России.
+</p></dd>
+
+<dt>удовлетворительно</dt><dd><p>
+верно освещаются основные вопросы темы, но нет
+логически стройного изложения материала, отсутствуют творческий
+подход и самостоятельная оценка литературных и фактических
+источников, что не позволяет делать самостоятельные выводы и
+предложения.
+</p>
+
+<p>
+В таких работах могут встречаться ошибочные положения,
+стилистическая небрежность, неумелое оформление научного
+аппарата, устаревшие статистические и фактические данные.  Кроме
+того, оценкой удовлетворительно могут оцениваться работы,
+выполненные с нарушением установленных сроков сдачи.
+</p></dd>
+
+<dt>неудовлетворительно</dt><dd><p>
+ставится в том случае, если работа допущена к
+защите, но на защите студент не может объяснить приведенные в
+работе положения и выводы, ответить на замечания руководителя.
+</p>
+
+<p>
+В этом случае часто автор не имеет отношения к выполнению работы.
+В случае получения оценки «неудовлетворительно» студент должен
+исправить замечания, разобраться в теме, внести в работу
+собственный вклад.
+</p></dd>
+</dl>
+
+<p>
+Получение на защите любой положительной оценки дает право на сдачу
+экзамена по дисциплине.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgd6e84e4" class="outline-2">
+<h2 id="orgd6e84e4"><span class="section-number-2">2</span> <span class="todo TODO">TODO</span> Этапы выполнения курсовой работы</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org8979e6f" class="outline-3">
+<h3 id="org8979e6f"><span class="section-number-3">2.1</span> <span class="todo TODO">TODO</span> Календарные сроки выполнения работы</h3>
+<div class="outline-text-3" id="text-2-1">
+<ul class="org-ul">
+<li>утвердить тему до</li>
+<li>ход выполнения работы (контрольные точки)</li>
+<li>сдать работу до</li>
+<li>защитить до</li>
+</ul>
+
+<p>
+Описать в неделях от начала семестра
+</p>
+</div>
+</div>
+
+<div id="outline-container-org064453d" class="outline-3">
+<h3 id="org064453d"><span class="section-number-3">2.2</span> Выбор темы курсовой работы</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+Выбор темы курсовой работы осуществляется студентом самостоятельно
+после консультаций с преподавателем дисциплины из перечня тем.
+Перечень вариантов тем курсовых работ приведен далее.
+</p>
+
+<p>
+Студент вправе самостоятельно предложить собственную тему, если она
+соответствует изучаемой дисциплине.  Для этого студент обосновывает
+целесообразность изучения темы и согласует ее с руководителем.
+</p>
+
+<p>
+Довольно распространена ситуация, когда студент не имеет четкого
+представления ни об одной из предлагаемых тем.  В этом случае студент
+выбирает из списка 3-4 темы, изучает в течение одного месяца научную,
+учебную и нормативную литературу к каждой из них и к сроку утверждения
+темы окончательно определяется с темой курсовой работы.  Литературу
+для курсовой работы студент подбирает, работая с каталогами
+литературы, с номерами экономических и финансовых журналов.
+</p>
+
+<p>
+Основная научная литература должна быть представлена произведениями
+наиболее видных современных российских и зарубежных экономистов.  К
+основной литературе следует отнести также Гражданский кодекс РФ,
+Налоговый кодекс РФ, Трудовой кодекс РФ, Федеральные Законы РФ о
+различных видах хозяйственной деятельности, а также статистические
+сборники по РФ и данные сайтов Интернет.  При подборе дополнительной
+литературы необходимо обратить внимание на статьи и другие материалы в
+журналах не старше 10 лет и газетах не старше 5 лет, издаваемых в
+России и других странах.
+</p>
+
+<p>
+Студенту не обязательно читать конкретный журнал или книгу целиком,
+достаточно изучить отдельные статьи, разделы и главы, в которых
+освещаются необходимые вопросы для выбранной темы курсовой работы.
+Необходимую для чтения информацию дают аннотация книги, оглавление,
+введение, заключение.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org4d94fa6" class="outline-3">
+<h3 id="org4d94fa6"><span class="section-number-3">2.3</span> Составление плана курсовой работы</h3>
+<div class="outline-text-3" id="text-2-3">
+<p>
+Результатом изучения литературы является составление плана курсовой
+работы. Первоначально формируется краткий план, который затем
+уточняется, что позволяет конкретизировать объект и предмет анализа,
+составить окончательную структуру работы и разработать наиболее важные
+тезисы по каждой главе и параграфу.
+</p>
+
+<p>
+В план работы необходимо включить:
+</p>
+<ul class="org-ul">
+<li>введение;</li>
+<li>главы по наиболее значимым разделам темы (они перечислены в перечне
+тем);</li>
+<li>заключение (выводы);</li>
+<li>список литературы.</li>
+</ul>
+
+<p>
+Например, план по теме «Роль золота в мировой валютной системе» может
+выглядеть следующим образом:
+</p>
+
+<ul class="org-ul">
+<li>Введение</li>
+<li>Изменение роли золота в связи с эволюцией денег
+<ul class="org-ul">
+<li>Понятие полноценных денег и роль золота</li>
+<li>Появление неполноценных бумажных денег и изменение роли золота</li>
+<li>Три разновидности золотого монометаллизма: золотомонетного,
+золотослиткового и золотодевизного</li>
+</ul></li>
+<li>Международная торговля золотом и российский рынок золота
+<ul class="org-ul">
+<li>Роль и значение лондонского рынка золота</li>
+<li>Роль других рынков золота</li>
+<li>Российский рынок золота и состояние золотодобычи в РФ</li>
+</ul></li>
+<li>Заключение</li>
+<li>Список литературы</li>
+</ul>
+
+<p>
+Структура курсовой работы уточняется при разработке ее плана и
+согласовывается с руководителем.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org12741bb" class="outline-3">
+<h3 id="org12741bb"><span class="section-number-3">2.4</span> Подбор и обработка фактических и статистических материалов</h3>
+<div class="outline-text-3" id="text-2-4">
+<p>
+В раскрытии вопросов плана курсовой работы ключевую роль играют свежие
+статистические материалы, данные конкретных предприятий.  Их
+использование при написании работы углубляет понимание теоретических
+положений, позволяет увидеть связь теории с практикой и реальной
+экономической действительностью.
+</p>
+
+<p>
+Подбор и осмысление, использование в курсовой работе конкретных
+экономических материалов &#x2014; важный показатель уровня подготовки и
+самостоятельности студента.  Основными источниками статистических
+данных являются статистические сборники и справочники по Российской
+Федерации, книги, журналы, отчеты предприятий, сайты Internet.
+</p>
+
+<p>
+В ряде тем курсовых работ может быть необходимо использовать материалы
+о производственной и коммерческой деятельности отдельных предприятий,
+об экономике отрасли, города или области.  Это данные о коммерческой
+деятельности предприятий, заработной плате и стимулировании труда, о
+формировании издержек и прибыли, процента и ренты, о налогообложении,
+о ценообразовании, о рекламной деятельности и др.  Главное назначение
+таких материалов состоит в том, чтобы на фактах реальной экономической
+жизни раскрыть освещаемые в работе теоретические положения,
+использовать их как аргументы в пользу сделанных выводов.
+</p>
+
+<p>
+Правильно подобранные статистические материалы позволяют составить
+таблицы, рисунки в виде схем, диаграмм, помогающие проанализировать
+экономические процессы.
+</p>
+
+<p>
+При наличии большого объема статистического материала (например,
+динамика инфляции за 10-15 лет во многих странах мира, платежные
+балансы ряда стран, бухгалтерские балансы предприятий и другие
+громоздкие таблицы) его следует поместить в приложение.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge5af1b3" class="outline-3">
+<h3 id="orge5af1b3"><span class="section-number-3">2.5</span> Написание текста курсовой работы</h3>
+<div class="outline-text-3" id="text-2-5">
+<p>
+Студент может приступить к написанию текста работы после того, как
+руководитель одобрил предложенный план курсовой работы.
+</p>
+
+<p>
+Во введении автор обосновывает актуальности темы, определяет цель и
+задачи.  Важное значение для введения имеет выбор методов анализа.
+Если брать экономику в целом, то метод &#x2014; это путь к достижению
+научных истин в анализе явлений и фактов, с помощью использования
+различных приемов и способов анализа экономической действительности.
+</p>
+
+<p>
+Самыми простыми методами анализа являются приемы формальной логики.
+Она предлагает следующий путь доказательств.  Сначала автор выдвигает
+тезис, затем подбираются аргументы и способы его доказательств.  Сами
+способы могут быть прямыми с помощью графиков, рисунков, формул или
+опытов.  Они могут быть и косвенными с помощью слов, убеждений,
+сравнений, аналогий и т.д.  В курсовой работе могут встречаться оба
+способа доказательств, с перевесом в пользу второго способа.
+</p>
+
+<p>
+В каждой курсовой работе широко используется статистика или цифровые
+данные экономических процессов.  Этот анализ называется статическим
+методом.  Если на основе статистики строятся различные рисунки,
+графики, диаграммы, то это используется графическийо метод.  Методы
+анализа позволяют внести элементы упорядоченности, доказательности и
+упорядоченности.
+</p>
+
+<p>
+Особое место в методах анализа занимает моделирование, в том числе с
+использованием Интернет.  Используемые компьютерные программы могут
+основываться либо на теоретических моделях, либо на реальных
+статистических данных, либо на объединении тех и других.  Под
+моделированием понимается создание упрощенного аналога того или иного
+явления и анализ его с помощью математических, графических или
+компьютерных моделей.  Иногда модели могут быть и текстовые.
+</p>
+
+<p>
+Дальше дается формулировка цели курсовой работы.  Исходя из целей
+дальше перечисляются задачи курсовой работы.  Чаще всего решению
+конкретных задач посвящены отдельные подразделы темы.  Кроме того,
+можно сформулировать практическую значимость анализируемой темы.
+</p>
+
+<p>
+Если по теме работы существуют различные позиции ученых или имеются
+сведения о различных путях (способах) практического решения данной
+проблемы, то студент должен определить свое отношение и обосновать
+свою точку зрения, которая может совпадать с чьим-то мнением, или
+может быть оригинальной и обновленной.  В последнем случае обоснование
+должно быть развернутым, базироваться на теоретической основе и иметь
+практическое подтверждение.
+</p>
+
+<p>
+Если теория, на которой базируется тема работы, прошла определенные
+этапы развития, претерпела определенные изменения, то в первой главе
+эти моменты также должны найти свое отражение.  Для каждого параграфа
+желательно подготовить рисунки, подтверждающие те или другие выводы
+студента.  В конце главы или по ходу ее анализа должны быть
+обязательно выводы студента, которые затем перейдут в заключение.
+</p>
+
+<p>
+Первая глава служит общим обзором рассматриваемой темы и вводит
+читателя в основные положения, которые далее будут использованы в
+работе.  Необходимо также определить значение данной проблемы (темы
+работы) в реализации экономической политики государства.
+</p>
+
+<p>
+Во второй главе следует детально рассмотреть вопрос, которому
+посвящена курсовая работа.  В качестве пунктов в этом разделе
+используются те же пункты, которые приведены в задании к курсовой
+работе для каждой из тем.
+</p>
+
+<p>
+Заключение по работе пишется в виде выводов, полученных в ходе
+выполнения работы.  В нем отражается решение поставленных задач и
+полученных результатов.  Без промежуточных выводов в тексте работы
+заключение часто бывает слабым, а это снижает общую оценку всей
+курсовой работы.
+</p>
+
+<p>
+Затем оформляется список использованной литературы, и если имеются
+приложения, то дается от 1 до 5 приложений.  Методически правильная
+последовательность написания курсовой работы следующая: сначала
+пишется текст основной части, а затем введение, заключение, список
+использованной литературы и приложения.  Все заимствования автора из
+литературных, учебных и статистических источников должны иметь ссылки
+на них в тексте работы.  Всего в курсовой работе должно быть
+использовано не менее 20 источников.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd70f6a8" class="outline-3">
+<h3 id="orgd70f6a8"><span class="section-number-3">2.6</span> <span class="todo TODO">TODO</span> Защита</h3>
+<div class="outline-text-3" id="text-2-6">
+<p>
+defence
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orge3afab5" class="outline-2">
+<h2 id="orge3afab5"><span class="section-number-2">3</span> <span class="todo TODO">TODO</span> Правила оформления курсовой работы</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+typography
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1900468" class="outline-2">
+<h2 id="org1900468"><span class="section-number-2">4</span> <span class="todo TODO">TODO</span> Литература</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+biblio
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd03d1a4" class="outline-2">
+<h2 id="orgd03d1a4"><span class="section-number-2">5</span> <span class="todo TODO">TODO</span> Перечень тем</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+themes.org
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">&#1044;&#1072;&#1090;&#1072;: 2019-01-23 Ср 00:00</p>
+<p class="author">&#1040;&#1074;&#1090;&#1086;&#1088;: Константин Моренко</p>
+<p class="date">Created: 2019-02-13 Ср 09:25</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
