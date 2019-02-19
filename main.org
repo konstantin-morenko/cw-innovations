@@ -29,6 +29,7 @@
 #+EMAIL: vim@konstantin-morenko.ru
 #+DATE: [2019-01-23 Ср]
 #+LANGUAGE: ru
+#+EXPORT_FILE_NAME: docs/index.html
 
 * Введение
   :PROPERTIES:
@@ -135,7 +136,8 @@
    :PROPERTIES:
    :CUSTOM_ID: defence
    :END:
- defence
+
+#+INCLUDE: defence.org
 
 * TODO Правила оформления курсовой работы
   :PROPERTIES:
