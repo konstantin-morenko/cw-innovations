@@ -132,7 +132,7 @@
 
 #+INCLUDE: wr-text.org
 
-** TODO Защита
+** Защита
    :PROPERTIES:
    :CUSTOM_ID: defence
    :END:
