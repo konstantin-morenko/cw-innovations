@@ -30,6 +30,8 @@
 #+DATE: [2019-01-23 Ср]
 #+LANGUAGE: ru
 #+EXPORT_FILE_NAME: docs/index.html
+#+OPTIONS: html-style:nil
+#+HTML_HEAD: <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
 
 * Введение
   :PROPERTIES:
