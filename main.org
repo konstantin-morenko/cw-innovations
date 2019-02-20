@@ -55,7 +55,7 @@
 
 #+INCLUDE: rating.org
 
-* TODO Этапы выполнения курсовой работы
+* Этапы выполнения курсовой работы
   :PROPERTIES:
   :CUSTOM_ID: stages
   :END:
