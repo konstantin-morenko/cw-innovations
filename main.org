@@ -141,7 +141,7 @@
 
 #+INCLUDE: defence.org
 
-* TODO Правила оформления курсовой работы
+* Правила оформления курсовой работы
   :PROPERTIES:
   :CUSTOM_ID: typography
   :END:
