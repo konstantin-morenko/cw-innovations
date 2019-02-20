@@ -145,7 +145,8 @@
   :PROPERTIES:
   :CUSTOM_ID: typography
   :END:
-typography
+
+#+INCLUDE: typography.org
 
 * TODO Литература
   :PROPERTIES:
