@@ -3,196 +3,13 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ru" xml:lang="ru">
 <head>
-<!-- 2019-02-19 Вт 13:57 -->
+<!-- 2019-02-20 Ср 16:16 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Выполнение курсовой работы по дисциплине "Стратегии коммерциализации инноваций"</title>
 <meta name="generator" content="Org mode" />
 <meta name="author" content="Константин Моренко" />
-<style type="text/css">
- <!--/*--><![CDATA[/*><!--*/
-  .title  { text-align: center;
-             margin-bottom: .2em; }
-  .subtitle { text-align: center;
-              font-size: medium;
-              font-weight: bold;
-              margin-top:0; }
-  .todo   { font-family: monospace; color: red; }
-  .done   { font-family: monospace; color: green; }
-  .priority { font-family: monospace; color: orange; }
-  .tag    { background-color: #eee; font-family: monospace;
-            padding: 2px; font-size: 80%; font-weight: normal; }
-  .timestamp { color: #bebebe; }
-  .timestamp-kwd { color: #5f9ea0; }
-  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
-  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
-  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
-  .underline { text-decoration: underline; }
-  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
-  p.verse { margin-left: 3%; }
-  pre {
-    border: 1px solid #ccc;
-    box-shadow: 3px 3px 3px #eee;
-    padding: 8pt;
-    font-family: monospace;
-    overflow: auto;
-    margin: 1.2em;
-  }
-  pre.src {
-    position: relative;
-    overflow: visible;
-    padding-top: 1.2em;
-  }
-  pre.src:before {
-    display: none;
-    position: absolute;
-    background-color: white;
-    top: -10px;
-    right: 10px;
-    padding: 3px;
-    border: 1px solid black;
-  }
-  pre.src:hover:before { display: inline;}
-  /* Languages per Org manual */
-  pre.src-asymptote:before { content: 'Asymptote'; }
-  pre.src-awk:before { content: 'Awk'; }
-  pre.src-C:before { content: 'C'; }
-  /* pre.src-C++ doesn't work in CSS */
-  pre.src-clojure:before { content: 'Clojure'; }
-  pre.src-css:before { content: 'CSS'; }
-  pre.src-D:before { content: 'D'; }
-  pre.src-ditaa:before { content: 'ditaa'; }
-  pre.src-dot:before { content: 'Graphviz'; }
-  pre.src-calc:before { content: 'Emacs Calc'; }
-  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
-  pre.src-fortran:before { content: 'Fortran'; }
-  pre.src-gnuplot:before { content: 'gnuplot'; }
-  pre.src-haskell:before { content: 'Haskell'; }
-  pre.src-hledger:before { content: 'hledger'; }
-  pre.src-java:before { content: 'Java'; }
-  pre.src-js:before { content: 'Javascript'; }
-  pre.src-latex:before { content: 'LaTeX'; }
-  pre.src-ledger:before { content: 'Ledger'; }
-  pre.src-lisp:before { content: 'Lisp'; }
-  pre.src-lilypond:before { content: 'Lilypond'; }
-  pre.src-lua:before { content: 'Lua'; }
-  pre.src-matlab:before { content: 'MATLAB'; }
-  pre.src-mscgen:before { content: 'Mscgen'; }
-  pre.src-ocaml:before { content: 'Objective Caml'; }
-  pre.src-octave:before { content: 'Octave'; }
-  pre.src-org:before { content: 'Org mode'; }
-  pre.src-oz:before { content: 'OZ'; }
-  pre.src-plantuml:before { content: 'Plantuml'; }
-  pre.src-processing:before { content: 'Processing.js'; }
-  pre.src-python:before { content: 'Python'; }
-  pre.src-R:before { content: 'R'; }
-  pre.src-ruby:before { content: 'Ruby'; }
-  pre.src-sass:before { content: 'Sass'; }
-  pre.src-scheme:before { content: 'Scheme'; }
-  pre.src-screen:before { content: 'Gnu Screen'; }
-  pre.src-sed:before { content: 'Sed'; }
-  pre.src-sh:before { content: 'shell'; }
-  pre.src-sql:before { content: 'SQL'; }
-  pre.src-sqlite:before { content: 'SQLite'; }
-  /* additional languages in org.el's org-babel-load-languages alist */
-  pre.src-forth:before { content: 'Forth'; }
-  pre.src-io:before { content: 'IO'; }
-  pre.src-J:before { content: 'J'; }
-  pre.src-makefile:before { content: 'Makefile'; }
-  pre.src-maxima:before { content: 'Maxima'; }
-  pre.src-perl:before { content: 'Perl'; }
-  pre.src-picolisp:before { content: 'Pico Lisp'; }
-  pre.src-scala:before { content: 'Scala'; }
-  pre.src-shell:before { content: 'Shell Script'; }
-  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
-  /* additional language identifiers per "defun org-babel-execute"
-       in ob-*.el */
-  pre.src-cpp:before  { content: 'C++'; }
-  pre.src-abc:before  { content: 'ABC'; }
-  pre.src-coq:before  { content: 'Coq'; }
-  pre.src-groovy:before  { content: 'Groovy'; }
-  /* additional language identifiers from org-babel-shell-names in
-     ob-shell.el: ob-shell is the only babel language using a lambda to put
-     the execution function name together. */
-  pre.src-bash:before  { content: 'bash'; }
-  pre.src-csh:before  { content: 'csh'; }
-  pre.src-ash:before  { content: 'ash'; }
-  pre.src-dash:before  { content: 'dash'; }
-  pre.src-ksh:before  { content: 'ksh'; }
-  pre.src-mksh:before  { content: 'mksh'; }
-  pre.src-posh:before  { content: 'posh'; }
-  /* Additional Emacs modes also supported by the LaTeX listings package */
-  pre.src-ada:before { content: 'Ada'; }
-  pre.src-asm:before { content: 'Assembler'; }
-  pre.src-caml:before { content: 'Caml'; }
-  pre.src-delphi:before { content: 'Delphi'; }
-  pre.src-html:before { content: 'HTML'; }
-  pre.src-idl:before { content: 'IDL'; }
-  pre.src-mercury:before { content: 'Mercury'; }
-  pre.src-metapost:before { content: 'MetaPost'; }
-  pre.src-modula-2:before { content: 'Modula-2'; }
-  pre.src-pascal:before { content: 'Pascal'; }
-  pre.src-ps:before { content: 'PostScript'; }
-  pre.src-prolog:before { content: 'Prolog'; }
-  pre.src-simula:before { content: 'Simula'; }
-  pre.src-tcl:before { content: 'tcl'; }
-  pre.src-tex:before { content: 'TeX'; }
-  pre.src-plain-tex:before { content: 'Plain TeX'; }
-  pre.src-verilog:before { content: 'Verilog'; }
-  pre.src-vhdl:before { content: 'VHDL'; }
-  pre.src-xml:before { content: 'XML'; }
-  pre.src-nxml:before { content: 'XML'; }
-  /* add a generic configuration mode; LaTeX export needs an additional
-     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
-  pre.src-conf:before { content: 'Configuration File'; }
-
-  table { border-collapse:collapse; }
-  caption.t-above { caption-side: top; }
-  caption.t-bottom { caption-side: bottom; }
-  td, th { vertical-align:top;  }
-  th.org-right  { text-align: center;  }
-  th.org-left   { text-align: center;   }
-  th.org-center { text-align: center; }
-  td.org-right  { text-align: right;  }
-  td.org-left   { text-align: left;   }
-  td.org-center { text-align: center; }
-  dt { font-weight: bold; }
-  .footpara { display: inline; }
-  .footdef  { margin-bottom: 1em; }
-  .figure { padding: 1em; }
-  .figure p { text-align: center; }
-  .equation-container {
-    display: table;
-    text-align: center;
-    width: 100%;
-  }
-  .equation {
-    vertical-align: middle;
-  }
-  .equation-label {
-    display: table-cell;
-    text-align: right;
-    vertical-align: middle;
-  }
-  .inlinetask {
-    padding: 10px;
-    border: 2px solid gray;
-    margin: 10px;
-    background: #ffffcc;
-  }
-  #org-div-home-and-up
-   { text-align: right; font-size: 70%; white-space: nowrap; }
-  textarea { overflow-x: auto; }
-  .linenr { font-size: smaller }
-  .code-highlighted { background-color: #ffff00; }
-  .org-info-js_info-navigation { border-style: none; }
-  #org-info-js_console-label
-    { font-size: 10px; font-weight: bold; white-space: nowrap; }
-  .org-info-js_search-highlight
-    { background-color: #ffff00; color: #000000; font-weight: bold; }
-  .org-svg { width: 90%; }
-  /*]]>*/-->
-</style>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
 <script type="text/javascript">
 /*
 @licstart  The following is the entire license notice for the
@@ -253,7 +70,7 @@ for the JavaScript code in this tag.
 <li><a href="#rating">1.1. Критерии оценки курсовой работы</a></li>
 </ul>
 </li>
-<li><a href="#stages">2. <span class="todo TODO">TODO</span> Этапы выполнения курсовой работы</a>
+<li><a href="#stages">2. Этапы выполнения курсовой работы</a>
 <ul>
 <li><a href="#essay">2.1. Реферат (эссе)</a></li>
 <li><a href="#work-plan">2.2. План выполнения работы</a></li>
@@ -261,17 +78,17 @@ for the JavaScript code in this tag.
 <li><a href="#planning">2.4. Составление плана курсовой работы</a></li>
 <li><a href="#materials">2.5. Подбор и обработка фактических и статистических материалов</a></li>
 <li><a href="#wr-text">2.6. Написание текста курсовой работы</a></li>
-<li><a href="#defence">2.7. <span class="todo TODO">TODO</span> Защита</a></li>
+<li><a href="#defence">2.7. Защита</a></li>
 </ul>
 </li>
-<li><a href="#typography">3. <span class="todo TODO">TODO</span> Правила оформления курсовой работы</a></li>
+<li><a href="#typography">3. Правила оформления курсовой работы</a></li>
 <li><a href="#biblio">4. <span class="todo TODO">TODO</span> Литература</a></li>
 <li><a href="#themes">5. Перечень тем</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org5d60293" class="outline-2">
+<div id="outline-container-orgc909fc6" class="outline-2">
 <h2 id="intro">Введение</h2>
 <div class="outline-text-2" id="text-intro">
 <p>
@@ -283,7 +100,7 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-org7cd90bd" class="outline-2">
+<div id="outline-container-org54f294f" class="outline-2">
 <h2 id="requirements"><span class="section-number-2">1</span> Основные требования к курсовой работе</h2>
 <div class="outline-text-2" id="text-requirements">
 <p>
@@ -341,7 +158,7 @@ Internet.
 </p>
 </div>
 
-<div id="outline-container-org973b104" class="outline-3">
+<div id="outline-container-org36d250e" class="outline-3">
 <h3 id="rating"><span class="section-number-3">1.1</span> Критерии оценки курсовой работы</h3>
 <div class="outline-text-3" id="text-rating">
 <p>
@@ -443,12 +260,12 @@ Internet.
 </div>
 </div>
 
-<div id="outline-container-orga10fe05" class="outline-2">
-<h2 id="stages"><span class="section-number-2">2</span> <span class="todo TODO">TODO</span> Этапы выполнения курсовой работы</h2>
+<div id="outline-container-orgb5a67f0" class="outline-2">
+<h2 id="stages"><span class="section-number-2">2</span> Этапы выполнения курсовой работы</h2>
 <div class="outline-text-2" id="text-stages">
 </div>
 
-<div id="outline-container-orgfdac1eb" class="outline-3">
+<div id="outline-container-org87c7f5a" class="outline-3">
 <h3 id="essay"><span class="section-number-3">2.1</span> Реферат (эссе)</h3>
 <div class="outline-text-3" id="text-essay">
 <p>
@@ -511,7 +328,7 @@ Internet.
 </div>
 </div>
 
-<div id="outline-container-orga8413c9" class="outline-3">
+<div id="outline-container-org3b4aa23" class="outline-3">
 <h3 id="work-plan"><span class="section-number-3">2.2</span> План выполнения работы</h3>
 <div class="outline-text-3" id="text-work-plan">
 <p>
@@ -566,7 +383,7 @@ Internet.
 </div>
 </div>
 
-<div id="outline-container-org84dda82" class="outline-3">
+<div id="outline-container-org978c9bd" class="outline-3">
 <h3 id="theme-selection"><span class="section-number-3">2.3</span> Выбор темы курсовой работы</h3>
 <div class="outline-text-3" id="text-theme-selection">
 <p>
@@ -608,7 +425,7 @@ Internet.
 </div>
 </div>
 
-<div id="outline-container-org628f04c" class="outline-3">
+<div id="outline-container-org5dc5263" class="outline-3">
 <h3 id="planning"><span class="section-number-3">2.4</span> Составление плана курсовой работы</h3>
 <div class="outline-text-3" id="text-planning">
 <p>
@@ -661,7 +478,7 @@ Internet.
 </div>
 </div>
 
-<div id="outline-container-orgac0bf7f" class="outline-3">
+<div id="outline-container-org7ec8934" class="outline-3">
 <h3 id="materials"><span class="section-number-3">2.5</span> Подбор и обработка фактических и статистических материалов</h3>
 <div class="outline-text-3" id="text-materials">
 <p>
@@ -707,7 +524,7 @@ Internet.
 </div>
 </div>
 
-<div id="outline-container-org89c073a" class="outline-3">
+<div id="outline-container-orgc91a4a8" class="outline-3">
 <h3 id="wr-text"><span class="section-number-3">2.6</span> Написание текста курсовой работы</h3>
 <div class="outline-text-3" id="text-wr-text">
 <p>
@@ -813,8 +630,8 @@ Internet.
 </div>
 </div>
 
-<div id="outline-container-orgd7d94c1" class="outline-3">
-<h3 id="defence"><span class="section-number-3">2.7</span> <span class="todo TODO">TODO</span> Защита</h3>
+<div id="outline-container-org6bc55c5" class="outline-3">
+<h3 id="defence"><span class="section-number-3">2.7</span> Защита</h3>
 <div class="outline-text-3" id="text-defence">
 <p>
 Защиту курсовой работы принимает преподаватель, ведущими занятия по
@@ -842,11 +659,13 @@ Internet.
 <li>в работе нет значимых выводов и авторских предложений;</li>
 <li>в тексте содержатся ошибочные положения.</li>
 </ol></li>
-<li>по оформительской причине, если:
+<li>по причине оформления, если:
 <ol class="org-ol">
 <li>текст написан небрежно;</li>
 <li>текст содержит множество смысловых, стилистических и
-грамматических ошибок.</li>
+грамматических ошибок;</li>
+<li>более чем на 5 страниц нарушен объем работы (как в большую, так
+и в меньшую сторону).</li>
 </ol></li>
 </ol>
 
@@ -885,16 +704,133 @@ Internet.
 </div>
 </div>
 
-<div id="outline-container-org81ce843" class="outline-2">
-<h2 id="typography"><span class="section-number-2">3</span> <span class="todo TODO">TODO</span> Правила оформления курсовой работы</h2>
+<div id="outline-container-org6c3a7e4" class="outline-2">
+<h2 id="typography"><span class="section-number-2">3</span> Правила оформления курсовой работы</h2>
 <div class="outline-text-2" id="text-typography">
 <p>
-typography
+Объем курсовой работы составляет 25&#x2013;30 стандартных листов формата А4
+(210х297 мм), набранных через 1.5 интервала шрифтом 14 pt.  Каждая
+страница кроме титульного листа нумеруется.  Все листы работы должны
+быть скреплены.
+</p>
+
+<p>
+Следующие заголовки печатаются с новой страницы прописными буквами и
+выравниваются по центру:
+</p>
+<ul class="org-ul">
+<li>введение;</li>
+<li>заголовки глав;</li>
+<li>заключение;</li>
+<li>список литературы;</li>
+<li>приложение.</li>
+</ul>
+
+<p>
+Все остальные заголовки подразделов набираются строчными буквами
+полужирным шрифтом.  Абзацный отступ должен быть не менее 1 см.
+Заголовки должны четко и кратко отражать содержание глав.
+</p>
+
+<p>
+Каждая глава должна состоять из 2-3-х подглав с заголовками,
+обозначенными арабскими цифрами 1.1, 1.2, 1.3, 2.1, 2.2, 2.3 и т. д.
+</p>
+
+<p>
+На титульном листе курсовой работы указываются:
+</p>
+<ul class="org-ul">
+<li>реквизиты организации:
+<ul class="org-ul">
+<li>наименование вышестоящей организации;</li>
+<li>наименование центра;</li>
+</ul></li>
+<li>тема курсовой работы;</li>
+<li>реквизиты студента:
+<ul class="org-ul">
+<li>факультет, курс, группа;</li>
+<li>фамилия, имя и отчество студента;</li>
+</ul></li>
+<li>реквизиты преподавателя:
+<ul class="org-ul">
+<li>должность, ученая степень;</li>
+<li>фамилия и инициалы руководителя.</li>
+</ul></li>
+</ul>
+
+<p>
+Затем следует оглавление с указанием номеров страниц введения,
+разделов, глав, параграфов, заключения, списка использованной
+литературы и приложений.
+</p>
+
+<p>
+В ссылках должны быть отражены цитируемые или использованные материалы
+из монографий, журнальных статей, справочников, учебных пособий.
+Ссылки могут выглядеть, например, на первый использованный источник:
+[1] или [2, с. 85].  Они указываются обычно в конце предложений.  В
+список литературы включаются все источники, на которые имеются ссылки
+и сноски в тексте и в приложениях.  Дважды или трижды один и тот же
+источник указывать в списке нельзя.  Ссылаться на один и тот же
+источник можно несколько раз, но всегда на первоначальный номер, под
+которым источник упомянут был в первый раз.
+</p>
+
+<p>
+Научный аппарат курсовой работы должен содержать весь использованный
+объем литературы, статистического и фактического материала, а также
+графики, таблицы, рисунки, разработанные или использованные студентом
+при написании работы.  Все приведенные в работе рисунки, графики,
+схемы, диаграммы, таблицы, формулы должны иметь сквозную нумерацию и
+заголовки, после которых в скобках указывается номер источника в
+списке литературы и страница.  Например, "[5, с. 16]" или "разработано
+автором по данным [5, с. 56; 14, с.69]".
+</p>
+
+<p>
+Графики, схемы, диаграммы обозначаются как рисунки.  Пример оформления
+подписи под рисунком: "Рисунок 1 — Динамика доли малого бизнеса в
+ВВП".
+</p>
+
+<p>
+Правила оформления таблиц следующие: в правом верхнем углу перед
+заголовком пишется: Таблица 1 (или 2 и т. д.)  Затем в следующей
+строке дается заголовок таблицы.  В может быть указан источник и
+страницы.  Дальше приводится сама таблица.
+</p>
+
+<p>
+Оформление приложений аналогично оформлению таблиц: каждое приложение
+должно иметь порядковый номер, заголовок и ссылку на источник, из
+которого оно заимствовано.
+</p>
+
+<p>
+Размер шрифта заголовков таблиц и цифрового материала может быть
+уменьшен на один размер от основного текста.
+</p>
+
+<p>
+Формулы выносятся в отдельную строку и нумеруются арабскими цифрами в
+круглых скобках с правой стороны листа на уровне правого поля и
+написанной формулы.
+</p>
+
+<p>
+Список использованной литературы оформляется на основе ссылок, типа
+[1, с. 121].  Здесь литература располагается в том же порядке, в
+котором на нее были сделаны ссылки.  Если первая ссылка сделана на
+"Экономическая теория. Макроэкономика. Часть 3 / Под
+ред. А. А. Нестерова. – Самара, 2007. – 226 с.", то список должен
+начинаться с этого учебного пособия с указанием полного количества
+страниц.  Он обозначается под номером 1.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgf5103ef" class="outline-2">
+<div id="outline-container-org2a4fc35" class="outline-2">
 <h2 id="biblio"><span class="section-number-2">4</span> <span class="todo TODO">TODO</span> Литература</h2>
 <div class="outline-text-2" id="text-biblio">
 <p>
@@ -903,7 +839,7 @@ biblio
 </div>
 </div>
 
-<div id="outline-container-orged802c4" class="outline-2">
+<div id="outline-container-org957f1a7" class="outline-2">
 <h2 id="themes"><span class="section-number-2">5</span> Перечень тем</h2>
 <div class="outline-text-2" id="text-themes">
 <p>
@@ -977,7 +913,7 @@ biblio
 <li>Необходимость и условия применения стратегического планирования</li>
 </ul></li>
 <li>Совершенствование организации инновационного менеджмента на
-предприятии <a id="org3668eea"></a>
+предприятии <a id="org8a77b7b"></a>
 <ul class="org-ul">
 <li>Сущность и особенности организации инновационного менеджмента</li>
 <li>Формирование цели инновационной деятельности</li>
@@ -1001,7 +937,7 @@ biblio
 <li>Государственное регулирование деятельности малых инновационных
 предприятий и новых прогрессивных организационных форм в России</li>
 </ul></li>
-<li><a id="orgbc75e26"></a> Распределение и использование финансовых ресурсов на
+<li><a id="org8c1b364"></a> Распределение и использование финансовых ресурсов на
 инновационном предприятии
 <ul class="org-ul">
 <li>Роль инвестиций в инновационном процессе</li>
@@ -1016,14 +952,14 @@ biblio
 <li>Виды и содержание инновационных проектов</li>
 <li>Порядок разработки инновационного проекта</li>
 </ul></li>
-<li><a id="org8e4dd53"></a> Организация контроля за выполнением инновационной программы
+<li><a id="orgcd33ebe"></a> Организация контроля за выполнением инновационной программы
 <ul class="org-ul">
 <li>Система менеджмента инновационной программы</li>
 <li>Этапы контроля за выполнением программы</li>
 <li>Концептуальная модель управления инновациями: ориентация на
 рынок</li>
 </ul></li>
-<li><a id="org147a958"></a> Методы государственного регулирования
+<li><a id="orgac4e7f0"></a> Методы государственного регулирования
 инновационных процессов
 <ul class="org-ul">
 <li>Инновационная политика государства</li>
@@ -1031,7 +967,7 @@ biblio
 процессов</li>
 <li>Зарубежный опыт управления инновационной деятельностью</li>
 </ul></li>
-<li><a id="org44a92da"></a> Развитие и современное состояние
+<li><a id="org5c8704e"></a> Развитие и современное состояние
 инновационного менеджмента на предприятии
 <ul class="org-ul">
 <li>Экономическая сущность инновационного менеджмента</li>
@@ -1039,7 +975,7 @@ biblio
 <li>Особенности процесса управления инновационной деятельностью</li>
 <li>Концептуальные модели управления инновациями</li>
 </ul></li>
-<li><a id="orgb0eb5e4"></a> Бизнес-план инновационной программы
+<li><a id="orgab7d6cb"></a> Бизнес-план инновационной программы
 <ul class="org-ul">
 <li>Экономическое значение и понятие бизнес-плана инновационной
 программы (проекта) и основное его назначение</li>
@@ -1083,7 +1019,7 @@ biblio
 <div id="postamble" class="status">
 <p class="date">&#1044;&#1072;&#1090;&#1072;: 2019-01-23 Ср 00:00</p>
 <p class="author">&#1040;&#1074;&#1090;&#1086;&#1088;: Константин Моренко</p>
-<p class="date">Created: 2019-02-19 Вт 13:57</p>
+<p class="date">Created: 2019-02-20 Ср 16:16</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
