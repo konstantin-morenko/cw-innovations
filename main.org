@@ -148,11 +148,12 @@
 
 #+INCLUDE: typography.org
 
-* TODO Литература
+* Литература
   :PROPERTIES:
   :CUSTOM_ID: biblio
   :END:
-biblio
+
+#+INCLUDE: biblio.org
 
 * Перечень тем
   :PROPERTIES:
