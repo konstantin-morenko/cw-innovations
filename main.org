@@ -32,6 +32,7 @@
 #+EXPORT_FILE_NAME: docs/index.html
 #+OPTIONS: html-style:nil
 #+HTML_HEAD: <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="custom.css" />
 
 * Введение
   :PROPERTIES:
