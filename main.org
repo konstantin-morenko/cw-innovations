@@ -167,3 +167,6 @@
 
 #+INCLUDE: themes.org
 
+* Список изменений
+
+#+INCLUDE: changelog.org
