@@ -42,6 +42,10 @@
 
 #+INCLUDE: intro.org
 
+** Онлайн-версия
+
+#+INCLUDE: online.org
+
 * Основные требования к курсовой работе
   :PROPERTIES:
   :CUSTOM_ID: requirements
