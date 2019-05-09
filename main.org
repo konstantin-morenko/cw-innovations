@@ -7,7 +7,7 @@
 #+AUTHOR: Константин Моренко
 #+EMAIL: vim@konstantin-morenko.ru
 #+LANGUAGE: ru
-#+EXPORT_FILE_NAME: docs/index.html
+#+EXPORT_FILE_NAME: index.html
 
 * Введение
   :PROPERTIES:
