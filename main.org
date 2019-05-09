@@ -1,4 +1,6 @@
 
+#+SETUPFILE: org-html-styles/readtheorg/theme-readtheorg-local.setup
+
 #+MACRO: course-name Стратегии коммерциализации инноваций
 
 #+TITLE: Выполнение курсовой работы по дисциплине "{{{course-name}}}"
@@ -6,9 +8,6 @@
 #+EMAIL: vim@konstantin-morenko.ru
 #+LANGUAGE: ru
 #+EXPORT_FILE_NAME: docs/index.html
-#+OPTIONS: html-style:nil
-#+HTML_HEAD: <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="custom.css" />
 
 * Введение
   :PROPERTIES:
