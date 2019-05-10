@@ -1,0 +1,29 @@
+#+TITLE: Styles for exporting Org to HTML
+#+AUTHOR: Konstantin Morenko
+#+EMAIL: me@konstantin-morenko.ru
+
+It is the for of the repository
+https://github.com/fniessen/org-html-themes.
+
+I left just one theme and fixed it a bit for more smooth styling
+according to my needs.
+
+* Usage
+
+Install it as submodule with
+#+begin_src sh
+  git submodule init https://github.com/konstantin-morenko/org-html-styles.git
+#+end_src
+
+Then add this into main export file
+#+begin_src org
+  #+SETUPFILE: org-html-styles/readtheorg/theme-readtheorg-local.setup
+#+end_src
+
+You could select custom export file
+#+begin_src org
+  ,#+EXPORT_FILE_NAME: index.html
+#+end_src
+
+
+Export with ~C-c C-e h h~
