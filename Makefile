@@ -11,15 +11,18 @@ all: $(HTML_FILE)
 
 
 clean:
+	@echo Clearing
 	rm -r $(BUILD_DIR)
 
 
 $(BUILD_DIR):
+	@echo Creating build dir
 	mkdir -p $@
 	cp -r org-html-styles $@/org-html-styles
 
 
 $(HTML_FILE): $(SOURCE_FILE) $(BUILD_DIR)
+	@echo Converting to html
 	$(call EMACS_EXPORT,$(<),org-html-export-to-html)
 	mv $(subst .org,.html,$(SOURCE_FILE)) $(BUILD_DIR)/index.html
 
