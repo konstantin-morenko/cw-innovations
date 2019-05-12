@@ -11,7 +11,7 @@ all: $(HTML_FILE)
 
 
 clean:
-	rm $(BUILD_DIR)/*; rmdir $(BUILD_DIR)
+	rm -r $(BUILD_DIR)
 
 
 $(BUILD_DIR):
